@@ -202,6 +202,22 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+.currency-table--date {
+  margin: 10px auto;
+  width: 200px;
+  height: 31px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--soft-orange);
+}
+.currency-table--date p {
+  font-family: "Inter";
+
+  font-size: 1.2rem;
+  line-height: 1.45rem;
+  color: var(--warm-black);
+}
+
 /*--TABLA COMISIONES--*/
 .main-comission-table {
   width: 70%;
@@ -254,4 +270,18 @@ main {
   font-weight: normal;
   line-height: 1.7rem;
   color: #757575;
+}
+.comission-table--date {
+  margin: 10px auto;
+  width: 200px;
+  height: 31px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--soft-blue);
+}
+.comission-table--date p {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  line-height: 1.45rem;
+  color: var(--warm-black);
 }
