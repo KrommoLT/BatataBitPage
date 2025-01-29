@@ -477,5 +477,17 @@ main {
 .main-img {
   width: 100%;
   min-width: 288px;
-  height: auto;
+  height: 390px;
+  background-image: url(../Assets/img/bitcoinbaby.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-img .main-img--title {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--just-white);
 }
